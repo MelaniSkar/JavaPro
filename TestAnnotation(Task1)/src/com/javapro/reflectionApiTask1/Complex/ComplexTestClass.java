@@ -1,13 +1,11 @@
-package com.reflectionApi.Complex;
+package com.javapro.reflectionApiTask1.Complex;
 
-import com.reflectionApi.Main.Test;
+import com.javapro.reflectionApiTask1.Test;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 public class ComplexTestClass {
-
-    //Написать код, который вызовет метод помеченный этой аннотацией и передаст параметры аннотации в вызываемый метод
 
     @Test(a = 2, b = 5)
     public void test(int _a, int _b) {

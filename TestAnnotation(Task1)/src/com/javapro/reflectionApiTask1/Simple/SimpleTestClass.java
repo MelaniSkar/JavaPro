@@ -1,10 +1,8 @@
-package com.reflectionApi.Simple;
+package com.javapro.reflectionApiTask1.Simple;
 
-import com.reflectionApi.Main.Test;
+import com.javapro.reflectionApiTask1.Test;
 
 public class SimpleTestClass {
-
-    //Написать код, который вызовет метод помеченный этой аннотацией и передаст параметры аннотации в вызываемый метод
 
     @Test(a = 2, b = 5)
     public void test(int _a, int _b) {
